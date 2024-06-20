@@ -1,0 +1,55 @@
+/* 
+DESCRIPTION: see https://youtube.com/@redblackgaming
+*/
+
+
+/* enemy player info */
+.trainer-far > .teamicons > span.picon.has-tooltip {
+    display: none;
+}
+
+/* enemy battle info */
+.lstatbar > strong {
+    opacity: 0;
+}
+
+/* hide opponent image */
+.innerbattle img[src*="/ani/"] {
+    z-index: -1;
+}
+.innerbattle img[src*="/ani-shiny/"] {
+    z-index: -1;
+}
+.innerbattle img[src*="/gen5/"] {
+    z-index: -1;
+}
+.innerbattle img[src*="/gen5-shiny/"] {
+    z-index: -1;
+}
+
+/* hide opponent name */
+.tooltip.tooltip-activepokemon h2 {
+    display: none;
+}
+
+/* hide opponent tooltip (move set & possible abilities) */
+.tooltip.tooltip-activepokemon p {
+    display: none;
+}
+.tooltip.tooltip-activepokemon p.tooltip-section {
+    display: unset;
+}
+
+/* hide messages that appear under the active pokemon */
+.messagebar * {
+    color: rgba(0,0,0,0);
+}
+
+.messagebar strong {
+    color: rgba(0,0,0,0);
+}
+
+/* battle log */
+.battle-history {
+    font-size: 0px;
+}
