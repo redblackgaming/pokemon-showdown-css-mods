@@ -40,6 +40,11 @@ DESCRIPTION: see https://youtube.com/@redblackgaming
     display: unset;
 }
 
+/* hide pokemon name from our own moves' tooltip (specifically hide the type effectiveness indicator) */
+.tooltip.tooltip-move p:last-child {
+    display: none;
+}
+
 /* hide messages that appear under the active pokemon */
 .messagebar * {
     color: rgba(0,0,0,0);
