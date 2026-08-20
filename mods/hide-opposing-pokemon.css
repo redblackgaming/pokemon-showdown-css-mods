@@ -13,18 +13,18 @@ DESCRIPTION: see https://youtube.com/@redblackgaming
     opacity: 0;
 }
 
-/* hide opponent image */
+/* hide OPPONENT image (using /sprites/ pattern would hide our pokemon too) */
 .innerbattle img[src*="/ani/"] {
-    z-index: -1;
+    max-width: 0;
 }
 .innerbattle img[src*="/ani-shiny/"] {
-    z-index: -1;
+    max-width: 0;
 }
 .innerbattle img[src*="/gen5/"] {
-    z-index: -1;
+    max-width: 0;
 }
 .innerbattle img[src*="/gen5-shiny/"] {
-    z-index: -1;
+    max-width: 0;
 }
 
 /* hide opponent name */
